@@ -1,28 +1,13 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown({project_title,description,motivation,whythis,problems,learned,installation,usage}) {
-    
-  return `
   
-  # ${project_title}
+  # yy
 
-  ## ${description}
+  ## yy
 
-  - Motivation of Project :- ${motivation}
-  - Why this project? ${whythis}
-  - List of Problems focued on :- ${problems}
-  - What I have learned?:- ${learned}
+  - Motivation of Project :- yy
+  - Why this project? yy
+  - List of Problems focued on :- yy
+  - What I have learned?:- yy
   
   ## Table of Contents 
 
@@ -33,12 +18,10 @@ function generateMarkdown({project_title,description,motivation,whythis,problems
   
   ## Installation
   
- ${installation.map((element)=>{
-   return `${element}`
- }).join('')}
+ y
   
   ## Usage
-  ${usage}
+  y
 
   
   To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
@@ -84,9 +67,3 @@ function generateMarkdown({project_title,description,motivation,whythis,problems
 
   
 
-`;
-}
-
-
-
-module.exports = generateMarkdown;
