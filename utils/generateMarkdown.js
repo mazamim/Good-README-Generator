@@ -38,54 +38,60 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown({project_title,description,motivation,whythis,problems,learned,installation,usage,pictures,credits,license}) {
+function generateMarkdown({project_title,description,motivation,whythis,installation,usage,pictures,credits,license,contribute}) {
 
    
-   return `
+  return `
   
-    # ${project_title}
+  # ${project_title}
+  ## ${description}
+
+  - Motivation of Project :-
+   ${motivation}
+
+  - Why this project?
+   ${whythis}
   
-    ## ${description}
+  ## Table of Contents 
+  - Installation
+  - Usage
+  - Credits
+  - License
   
-    - Motivation of Project :- ${motivation}
-    - Why this project? ${whythis}
-    - List of Problems focued on :- ${problems}
-    - What I have learned?:- ${learned}
-    
-    ## Table of Contents 
+  ## Installation
   
-    - Installation
-    - Usage
-    - Credits
-    - License
-    
-    ## Installation
-    
-   ${installation.map((element)=>{
-     return `${element}`
-   }).join('')}
-    
-    ## Usage
-    ${usage}
+ ${installation.map((element)=>{
+   return `${element}`
+ }).join('')}
   
-    
-    ## Screenshots/usage Pictures links
-    
-    ${pictures.map((element)=>{
-      return `${element}`
-    }).join('')}
-        
-    
-    ## Credits
-    ${credits}
+  ## Usage
+  ${usage}
   
-    
-    ## License
-    ${renderLicenseBadge(license)}
+  Below the link for the screen shots of working App:-
   
-    ## How to Contribute
-    
-  `
+      md
+     ${pictures.map((element)=>{
+        return `![alt text](${element})`
+      }).join('')}
+  
+  ## Credits
+   ${credits.map((element)=>{
+    return ` 🏆 ${element}`
+  }).join('')}
+
+  
+  ## License
+  
+  ${renderLicenseBadge(license)}
+  ---
+
+  
+  ## How to Contribute
+  ${contribute}
+ 
+ 
+  
+`;
 
   
   } 

@@ -32,18 +32,7 @@ const questions = [
     message: "Why did you build this project?",
     validate: emptyInput,
   },
-  {
-    type: "input",
-    name: "problems",
-    message: "What problem does it solve?",
-    validate: emptyInput,
-  },
-  {
-    type: "input",
-    name: "learned",
-    message: "What did you learn?",
-    validate: emptyInput,
-  },
+
 
   {
     type: "Expand",
@@ -69,6 +58,7 @@ const questions = [
     type: "editor",
     name: "credits",
     message:"Include credits here",
+    filter:async (name) => (name.includes(",") ? name.split(",") : name.split()),
     
   },
 
@@ -79,6 +69,15 @@ const questions = [
     choices:['No license','MIT','GNU','APACHE']
     
   },
+
+  {
+    type: "input",
+    name: "contribute",
+    message:"How to contribute?",
+    
+  },
+
+
 ];
 
 module.exports = questions;

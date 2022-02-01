@@ -1,41 +1,44 @@
 
   
-    # README
+  # README
+  ## The Project to generate easy and modern way to generate readme files
+
+  - Motivation of Project :-
+   I've struggled with writing READMEs for my projects from the day I started to learn developing.
+
+  - Why this project?
+   You might want to show your project to your friend. Or your future employer might want to check your existing Github projects. Switching between projects in your work is common, let alone that you might need to poke at your own previous projects from time to time.
   
-    ## t
+  ## Table of Contents 
+  - Installation
+  - Usage
+  - Credits
+  - License
   
-    - Motivation of Project :- t
-    - Why this project? ttt
-    - List of Problems focued on :- tt
-    - What I have learned?:- ttt
-    
-    ## Table of Contents 
+  ## Installation
   
-    - Installation
-    - Usage
-    - Credits
-    - License
-    
-    ## Installation
-    
-   t
-    
-    ## Usage
-    t
+ Git clone https://github.com/mazamim/Good-README-Generator.git
   
-    
-    ## Screenshots/usage Pictures links
-    
-    http://res.cloudinary.com/dpw3rs0pv/image/upload/v1643715023/jrpzea8dghet49hirt31.jpg
-        
-    
-    ## Credits
-    fgf
+  ## Usage
+  once cloned simply run 'npm install' there you go 'npm start' then you can run the programe...
   
-    
-    ## License
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  Below the link for the screen shots of working App:-
   
-    ## How to Contribute
-    
+      md
+     ![alt text](http://res.cloudinary.com/dpw3rs0pv/image/upload/v1643719317/vfndqg3utdmi2rvegs8h.jpg)![alt text](http://res.cloudinary.com/dpw3rs0pv/image/upload/v1643719318/gkp91ywxhyyjzobwxxit.jpg)![alt text](http://res.cloudinary.com/dpw3rs0pv/image/upload/v1643719328/dzdgp7dc8grx6mmu7xkp.jpg)
+  
+  ## Credits
+    🏆 inquirer https://www.npmjs.com/package/inquirer 🏆 cloudinary https://cloudinary.com/
+
+  
+  ## License
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ---
+
+  
+  ## How to Contribute
+  contact on mazamim91@gmail.com for contribute tothis project
+ 
+ 
   

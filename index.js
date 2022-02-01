@@ -54,7 +54,8 @@ var urlArray=[]
       const clonedAnswer = { ...answer };
       clonedAnswer.pictures = urlArray;
       const content = generateMarkdown(clonedAnswer);
-      writeToFile(`${clonedAnswer.project_title}.md`, content);
+     writeToFile('README.md', content)
+    
     }
   });
 });
